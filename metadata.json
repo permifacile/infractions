@@ -1,0 +1,6 @@
+{
+  "name": "PermiFacile",
+  "description": "Interactive table for offenses and penalties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

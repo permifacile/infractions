@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Tajawal', ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-bg: #0a0a0c;
+  --color-brand-card: #151518;
+  --color-brand-hover: #1e1e24;
+  --color-brand-text: #f4f4f5;
+  --color-brand-muted: #a1a1aa;
+  
+  --color-neon-red: #ff3333;
+  --color-neon-orange: #ff9900;
+  --color-neon-blue: #00ccff;
+  --color-neon-green: #00ff66;
+  
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  line-height: 1.6;
+  background-image: 
+    radial-gradient(circle at 80% 10%, rgba(255, 153, 0, 0.04), transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(0, 255, 102, 0.04), transparent 50%);
+  min-height: 100vh;
+}
