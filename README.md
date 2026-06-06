@@ -1,4 +1,4 @@
-
+## المخالفات و العقوبات
 Interactive web application designed to help users understand and navigate traffic offenses and penalties. It provides a comprehensive and easy-to-use interface for browsing driving violations, their associated fines, and the points system (سلم النقط).
 
 - **Interactive Offenses Table (جدول المخالفات):** Browse and search through detailed records of traffic offenses.
